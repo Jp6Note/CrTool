@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="cros-internal" fetch="https://chrome-internal.googlesource.com" review="https://chrome-internal-review.googlesource.com" />
+  <project remote="cros-internal" revision="refs/heads/main" path="src/private-overlays/chipset-qc7180-private" name="chromeos/overlays/chipset-qc7180-private" />
+  <project remote="cros-internal" revision="refs/heads/main" path="src/private-overlays/baseboard-trogdor-private" name="chromeos/overlays/baseboard-trogdor-private" />
+  <project remote="cros-internal" revision="refs/heads/main" path="src/private-overlays/overlay-trogdor-private" name="chromeos/overlays/overlay-trogdor-private" />
+  <project remote="cros-internal" revision="refs/heads/main" path="src/private-overlays/overlay-strongbad-private" name="chromeos/overlays/overlay-strongbad-private"/>
+  <project remote="cros-internal" revision="refs/heads/main" path="src/private-overlays/baseboard-cheza-private" name="chromeos/overlays/baseboard-cheza-private" />
+  <project remote="cros-internal" revision="refs/heads/main" path="src/private-overlays/overlay-cheza-private" name="chromeos/overlays/overlay-cheza-private" />
+  <project remote="cros-internal" revision="refs/heads/main" path="src/private-overlays/project-cheets-private" name="chromeos/overlays/project-cheets-private"/>
+  <project remote="cros-internal" revision="refs/heads/main" path="src/private-overlays/chromeos-partner-overlay" name="chromeos/overlays/chromeos-partner-overlay"/>
+  <project remote="cros-internal" revision="refs/heads/main" path="src/third_party/autotest-tests-cheets" name="chromeos/autotest-cheets" />
+</manifest>
